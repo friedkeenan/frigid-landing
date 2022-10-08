@@ -1,4 +1,4 @@
-<img src="src/main/resources/frigid_landing/icon.png" width="128">
+<img src="src/main/resources/assets/frigid_landing/icon.png" width="128">
 
 # Frigid Landing
 
