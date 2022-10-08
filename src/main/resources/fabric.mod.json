@@ -1,0 +1,38 @@
+{
+    "schemaVersion": 1,
+    "id": "frigid_landing",
+    "version": "${version}",
+
+    "name": "Frigid Landing",
+    "description": "Upgrade ice blocks by falling on them from a great enough height!",
+    "authors": [
+        "friedkeenan"
+    ],
+
+    "contact": {
+        "homepage": "https://github.com/friedkeenan/frigid-landing",
+        "sources": "https://github.com/friedkeenan/frigid-landing",
+        "issues": "https://github.com/friedkeenan/frigid-landing/issues"
+    },
+
+    "license": "ISC",
+    "icon": "assets/frigid_landing/icon.png",
+
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "io.github.friedkeenan.frigid_landing.FrigidLandingMod"
+        ]
+    },
+
+    "mixins": [
+        "frigid_landing.mixins.json"
+    ],
+
+    "depends": {
+        "fabricloader": ">=0.14.9",
+        "fabric-api": "*",
+        "minecraft": "~1.19",
+        "java": ">=17"
+    }
+}
